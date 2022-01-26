@@ -1,7 +1,7 @@
-var name = "User";
+var nameFirst = "User";
 var price = 100;
 var isCustomer = true;
 
-alert("Welcome: " + name);
+alert("Welcome: " + nameFirst);
 
 console.log("Hello World");
