@@ -11,12 +11,26 @@ var sitePlease = confirm("Do you want a website for " + price + " US$?");
 console.log("Hello " + nameFirst);
 console.log("The price for these sites go for " + price + "$ per site.");
 
-for (var i = 0; i < arrayPractice2.length; i++) {
-    console.log(arrayPractice2[i]);
+for (var i = 0; i < arrayPractice1.length; i++) {
+    // console.log(i);
+    console.log(arrayPractice1[i]);
+}
+
+for (let j = 0; j < arrayPractice2.length; j++) {
+    // console.log(j);
+    console.log(arrayPractice2[j]);
+
+}
+
+let famIndex = arrayPractice2.indexOf(nameFirst);
+if (famIndex !== -1) {
+    console.log("It's You!");
+}else{
+    console.log("Who Are You!");
 }
 
 if (sitePlease){
-    alert("Great " + nameFirst);
+    alert("Great " + nameFirst.toUpperCase());
 } else {
     alert("See You Later " + nameFirst);
 }
