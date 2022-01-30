@@ -34,3 +34,20 @@ if (sitePlease){
 } else {
     alert("See You Later " + nameFirst);
 }
+
+// var randomNumber = Math.floor(Math.random() * 10) + 1;
+// var remainder = num % 2;
+// var isTheNumberEven = Number.IsInteger(num / 2);
+
+console.log(window);
+
+// Use childNodes to change attributes
+
+// Create An El 
+// Add Attibute/ Content
+// Append To El
+
+// 3step
+var welcomeTextEl = document.createElement("welcometext");
+welcomeTextEl.textContent = "Your information here";
+document.body.appendChild(welcomeTextEl);
